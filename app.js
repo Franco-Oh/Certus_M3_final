@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 const express = require('express');
-// const base = require('./base')
+
 const router = express.Router();
 const Producto = require('./ProductoSchema.js');
 

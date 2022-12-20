@@ -1,3 +1,18 @@
+let navMenu = document.querySelector('#menu-bar');
+let navMenuClose = document.querySelector('.modal-navbar__close');
+
+function menuMobile (){
+    navMenu.addEventListener('click', () => {
+        document.querySelector('.modal-navbar_background').classList.remove('no-visible');
+    });
+    navMenuClose.addEventListener('click', () => {
+        document.querySelector('.modal-navbar_background').classList.add('no-visible');
+    });
+}
+
+menuMobile();
+
+
 // Inicio Cantidades de cada producto en catalogo
 let minusBtn1 = document.querySelector('#input__minus1');
 let plusBtn1 = document.querySelector('#input__plus1');

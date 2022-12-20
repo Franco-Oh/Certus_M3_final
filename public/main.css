@@ -5,11 +5,10 @@ a{
 
 /* modal nav inicio */
 .modal-navbar_background{
-    display: none;
     background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 910px;
     top: 0;
     right: 0;
 }
@@ -55,6 +54,11 @@ li{
     width: 100%;
 }
 /* modal cart final */
+
+.main-border-button{
+    max-width: 250px;
+    margin-left: 200px;
+}
 
 i{
     font-size: 30px;
